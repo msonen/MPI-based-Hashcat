@@ -27,6 +27,6 @@ MPI Based Hashcat for distributing hashcat tasks to multiple computers.
 
 -> specify files and hashes
 
--> Do not give '-l, -s, --quiet --status --remove --machine-readable --restore-disable --potfile-disable --session and -o' on external commands
+-> Do not pass '-l, -s, --quiet --status --remove --machine-readable --restore-disable --potfile-disable --session and -o' to external commands.
 
-manual will be realesed soon
+-> manual will be realesed soon
