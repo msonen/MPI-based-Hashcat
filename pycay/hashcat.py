@@ -151,7 +151,8 @@ class Hashcat(threading.Thread):
             cmd_args.append('--outfile-check-dir='+self.outfile_check_dir)
         if self.attack_mode in (0, 1, 3):
             cmd_args.append("-s " + str(self.skip))
-            cmd_args.append("-l " + str(self.limit))
+            if self.limit > 0:
+                cmd_args.append("-l " + str(self.limit))
         return ' '.join(cmd_args)
 
     def get_hc_state(self):
