@@ -16,7 +16,11 @@ MPI Based Hashcat for distributing hashcat tasks to multiple computers.
 -> Download Hashcat binary for linux from https://hashcat.net/hashcat/
 
 -> Edit Config File
+
 -> run __main__.py with mpirun ex: mpirun -np 6 python3 ./__main__.py
+
 -> specify files and hashes
+
 -> Do not give '-l, -s, --quiet --status --remove --machine-readable --restore-disable --potfile-disable --session and -o' on external commands
 
+manual will be realesed soon
