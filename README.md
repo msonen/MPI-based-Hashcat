@@ -4,6 +4,7 @@ MPI Based Hashcat for distributing hashcat tasks to multiple computers.
 
 
 # Installation
+
 -> Install MPI with Multiple Thread Support
 
 -> Install 'pexpect' module
@@ -14,9 +15,9 @@ MPI Based Hashcat for distributing hashcat tasks to multiple computers.
     
 -> Install mpi4py module
 
-   pip3 install mpi4pn
+    pip3 install mpi4pn
    
-   https://mpi4py.readthedocs.io/en/stable/install.html
+    https://mpi4py.readthedocs.io/en/stable/install.html
    
 -> Download Hashcat binary for linux from https://hashcat.net/hashcat/
 
